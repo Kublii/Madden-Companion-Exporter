@@ -168,3 +168,6 @@ app.post('/:username/:platform/:leagueId/team/:teamId/roster', (req, res) => {
 app.listen(app.get('port'), () =>
     console.log('Madden Data is running on port', app.get('port'))
 );
+git add *
+git commit -m "Update app.js with firebase info"
+git Push
